@@ -1,0 +1,48 @@
+.cart-design
+{
+    border-radius: 2rem;
+    box-shadow: 0px 4px 6px #666666;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+    height: 150px;
+    width: 365px;
+}
+.image
+{
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 120px;
+    height: 120px;
+}
+
+.productName
+{
+    margin-top: -7.5rem;
+    margin-left: 12rem;
+}
+
+.price
+{
+    margin-left: 12rem;
+}
+.countHandler
+{
+    margin-left: 12rem;
+}
+
+.checkout
+{
+    font-size: 120%;
+    font-weight:bolder;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    height: 40px;
+    width: 200px;
+}
+.subtotal
+{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}

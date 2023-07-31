@@ -1,0 +1,22 @@
+.oder,.Recipe,.Review
+{
+    cursor: pointer;
+     color: black;
+    
+}
+
+.Button
+{
+    position: absolute;
+    border: 0rem;
+    background-color: transparent;
+}
+
+.appp
+{
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    list-style: none;
+}

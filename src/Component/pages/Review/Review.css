@@ -1,0 +1,47 @@
+.Profile
+{
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+
+.input-container
+{
+    margin-left: 4rem;
+    margin-top: -4rem;
+}
+.star
+{
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+.enterComment
+{
+    position: fixed;
+    bottom: 0;
+    margin-top: 30rem;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+}
+.send
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: -2rem;
+  margin-left: 23rem;
+  margin-bottom: 1.4rem;
+}
+
+.reviewBody
+{
+    line-height: 2rem;
+    margin-left: 0rem;
+    margin-bottom: 8rem;
+}
+.header
+{
+    margin-left: 4rem;
+    font-weight: 500;
+}

@@ -1,0 +1,36 @@
+.radialmenu
+{
+    position: relative;
+    background-color: #fffbff;
+    margin: -6rem auto 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    list-style: none;
+    line-height: 2rem;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    font-weight: 700;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: box-shadow 3s ease;
+}
+.Review,.Recipe
+{
+    text-decoration: none;
+    border-style: none;
+    background-color: #fffbff;
+    font-weight: 600;
+}
+
+.order
+{
+  border-style: none;
+  font-weight: 600;
+  background-color:#ffffff
+}
+
+.order:hover,.Recipe:hover,.Review:hover{
+  border-radius: 5px;
+  background-color: #366641;
+}

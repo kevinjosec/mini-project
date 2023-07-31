@@ -1,0 +1,192 @@
+.coffe
+{
+    margin-top: -20px;
+    margin-left: -40px;
+    height: 570px;
+    width: 430px;
+}
+
+.figcaption
+{
+    font-family: 'SoDo Sans';
+    position: absolute;
+    bottom: 28rem;
+    margin: 0 -1rem;
+    color: white;
+    font-size: 20px;
+
+}
+
+.figcaption2
+{
+    font-family: 'SoDo Sans';
+    position: absolute;
+    bottom: 15rem;
+    margin: 0 -1rem;
+    color: white;
+    font-size: 23px;
+
+}
+
+.Order{
+    position: absolute;
+    bottom:20%;
+    left: 10%;
+    
+}
+
+.Food,.fooD
+{
+    font-family: 'Times New Roman';
+    font-size: 110%;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: -12.7rem;
+    margin-bottom: 10rem;
+    margin-left: -1rem;
+    transition-duration: 1s;
+    border: white;
+    background-color: transparent;
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid #ffffff;
+}
+
+.Drink,.drinK
+{
+    font-family: 'Times New Roman';
+    font-size: 110%;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: -14rem;
+    margin-bottom: 10rem;
+    margin-left: 5.5rem;
+    transition-duration: 1s;
+    border: white;
+    background-color: transparent;
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid #ffffff;
+}
+
+
+.Eat,.DrinK
+{
+    font-family: 'Times New Roman';
+    font-size: 81px;
+    margin-left: 1rem;
+}
+
+.BLA
+{
+    font-family: 'Times New Roman';
+    margin-left: 1rem;
+    margin-top: -2rem;
+    font-size: large;
+}
+
+.BLAA
+{
+    line-height: 1.8rem;
+    font-family: 'Times New Roman';
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: large;
+}
+
+.SeeMore,.SeeMore1
+{
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 700;
+    transition-duration: 1s;
+    border: black;
+    background-color: #ffffff;
+    color: black;
+    padding: 7px 24px;
+    border: 2px solid #000000;
+    margin-left: 5%;
+    
+}
+.omelette
+{
+    margin-top: 3rem;
+    width: 430px;
+    
+}
+
+.FTC{
+    
+    font-family: 'Times New Roman';
+    margin-left: 1rem;
+    margin-top: -2rem;
+    font-size: large;
+}
+
+.FTCC
+{
+    line-height: 1.8rem;
+    font-family: 'Times New Roman';
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: large;
+}
+
+.drink{
+margin-top: 2rem;
+width: 430px;
+}
+
+.midbar
+{
+    background-color: #c1e1c1;
+    width: 430px;
+    margin-top: -2rem;
+}
+.midtext1
+{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-weight: 900;
+}
+.midtext
+{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-weight: 700;
+    margin-top: -1rem;
+}
+
+.grouphoto
+{
+    width: 430px;
+}
+.endtxt
+{
+    height: 220px;
+    font-family: 'Times New Roman';
+    background-color: #366641;
+    width: 430px;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+}
+
+
+.endtxt1
+{
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+.endtxt2
+{
+    margin-top: -2rem;
+    margin-left: 2rem;
+    color: white;
+    line-height: 160%;
+    font-weight: 400;
+}
+

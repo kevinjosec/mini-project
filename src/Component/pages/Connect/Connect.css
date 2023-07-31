@@ -1,0 +1,47 @@
+span {
+    content: "\2709";
+  }
+  span {
+    content: "\260F";
+  }
+
+
+  span {
+    content: "\2706";
+  }
+
+  .heading1
+  {
+    text-align: center;
+  }
+
+  .contact
+  {
+    margin-left: 1rem;
+  }
+
+  .send1
+  {
+    font-size: 100%;
+    font-weight: 600;
+    height: 50px;
+    transition-duration: 1s;
+    border: black;
+    background-color:#366641;
+    color: black;
+    padding: 1px 30px;
+    border: 2px solid #000000;
+    margin-top: 20px;
+  }
+
+  .icon
+  {
+    font-size: 120%;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+
+  .main1
+  {
+   margin-left: 1rem;
+  }

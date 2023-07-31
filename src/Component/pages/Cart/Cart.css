@@ -1,0 +1,27 @@
+.cart
+{
+    margin-left: 4rem;
+    text-align: center;
+}
+
+.checkout
+{
+    padding-left: 60px;
+}
+
+.checkoutButton
+{
+    margin-bottom: 3rem;
+    font-weight: 600;
+    border: solid black;
+    background-color: #366641;
+    font-size: 110%;
+    height: 50px;
+    width: 150px;
+}
+
+
+.empty
+{
+    margin-left: 8.5rem;
+}

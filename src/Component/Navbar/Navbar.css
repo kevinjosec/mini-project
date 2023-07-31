@@ -1,0 +1,43 @@
+.Navbarmain
+{
+    height: 100px;
+    width: 430px;
+    display: block ;
+    background-color: #366641;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+    display: flex;
+    
+}
+.Caeffine
+{
+    margin-left: 1rem;
+    font-family: 'Santana-Black';
+    position: absolute;
+    top: 0.9%;
+    left: 25%;
+    color: white;
+}
+
+.hamenu
+{
+   margin-left:22.5rem;
+   flex-direction: right;
+    
+}
+
+
+
+.hamenu:hover
+{
+    color: azure;
+}
+
+.menubutton
+{
+    
+    background-color: transparent;
+    border: none;
+}
+

@@ -1,0 +1,97 @@
+.Our-Menu
+{
+    font-style: "Times New Roman";
+    margin-left: 3rem;
+   text-align: center;
+    font-size: 250%;
+    
+
+}
+
+.subtitle
+{
+    margin-left: 4rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: -1rem;
+   
+}
+
+.aded,.Bakery
+{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 150%;
+}
+
+.croissant,.muffin,.cheesecake,.granola,.chia,.acai,.avocado
+{
+    
+    width: 430px;
+    margin-inline-start: auto;
+}
+
+.croissant
+{
+    margin-left: -1.1cm;
+}
+.croissant-dish,.muffin-dish,.cheesecake-dish,.granola-dish,.chia-pudding,.acai-bowl,.avocado-toast
+{
+    margin-left: 4rem;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 0rem;
+}
+
+.Button
+{
+   height: 10px;
+   width: 10px;
+  
+   margin-left: 20rem;
+   margin-top: -4.5rem;
+   
+}
+
+
+.header1
+{
+    font-style: 'Times new roman';
+    margin-left: 3.7rem;
+    text-align: center;
+}
+.our-menu
+{
+    font-size: 200%;
+}
+.menu-starts
+{
+    margin-left: 7rem;
+}
+.full-menu
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 430px;
+    background-color: #366641;
+    box-shadow: 0 0 20px 10px #72a783;
+}
+.category
+{
+    margin-left: 11rem;
+    font-size: 200%;
+    font-weight: 700;
+}
+.category1
+{
+    font-size: 200%;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+.sub-our-menu
+{
+    font-style: italic;
+    font-family: "Times New Roman";
+    font-size: 110%;
+}

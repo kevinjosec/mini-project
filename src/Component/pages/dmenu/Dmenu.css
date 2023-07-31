@@ -1,0 +1,102 @@
+.pink
+{
+    width: 430px;
+    height: 180px;
+    display: block;
+    background-color: #f0c7c7;
+}
+
+.oUr-menu
+{
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 250%;
+}
+
+.sub
+{
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.Latte
+{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.oleatto,.cinnamon,.blondelatte,.caramel,.expresso,.mochas,.whites
+{
+    width: 430px;
+}
+.oleatto-latte,.cinnamon-latte,.blonde-latte,.cara_mel,.expressoo,.cafe-mochas,.white-mochas
+{
+    margin-left: 4rem;
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+.Macchiatos,.Mochas
+{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 180%;
+}
+
+
+.mainbody
+{
+    margin-left: 7.5rem;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    border-radius: 3%;
+
+}
+.imagebox
+{
+    padding: 10px 40px;
+    padding-bottom: 2px;
+    width: 120px;
+    height: 120px;
+}
+.label
+{
+    font-size: larger;
+    text-align: center;
+}
+
+.pricemenu
+{
+    margin-left: 1rem;
+    margin-top: 1rem;
+   
+}
+
+.add-button
+{
+    margin-top: -3.2rem;
+    margin-left: 9rem ;
+}
+.button
+{
+    border: none;
+    background-color: transparent;
+}
+
+.popup
+{
+    margin-left: .3rem;
+    border-radius: 2rem;
+    background-color: #366641;
+}
