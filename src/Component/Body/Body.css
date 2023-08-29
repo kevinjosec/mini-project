@@ -1,11 +1,54 @@
-.coffe
-{
-    margin-top: -20px;
-    margin-left: -40px;
-    height: 570px;
-    width: 430px;
+/* Style for the image container */
+.coffe1 {
+    margin-top: -1rem;
+    margin-left: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195vh;
+    height: 90vh; /* Set container height to match the desired percentage of viewport height */
+    overflow: hidden;
+    box-sizing: border-box;
 }
+  
+  /* Style for the image */
+  .coffe {
+    width: 100%; /* Maintain the image's aspect ratio */
+    height: 100%; /* Make the image take up the full container height */
+    object-fit:cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  /* ... Rest of your CSS styles ... */
+  
 
+  .grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 120%;
+    max-height: 150%; /* Change the max-height value */
+  }
+  .gridItem {
+    padding: 0; /* Remove padding to fit images perfectly */
+  }
+  
+  .omelette,
+  .drink {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Change to "cover" to fill the entire grid cell */
+    display: block;
+    margin: 0; /* Remove margin for precise fit */
+  }
+
+  .omelette {
+    height: 100%;
+  }
+  
+  .drink {
+    height: 130%; /* Adjust the height as needed */
+  }
+  
 .figcaption
 {
     font-family: 'SoDo Sans';
@@ -108,12 +151,6 @@
     margin-left: 5%;
     
 }
-.omelette
-{
-    margin-top: 3rem;
-    width: 430px;
-    
-}
 
 .FTC{
     
@@ -132,16 +169,15 @@
     font-size: large;
 }
 
-.drink{
-margin-top: 2rem;
-width: 430px;
-}
+
 
 .midbar
 {
     background-color: #c1e1c1;
-    width: 430px;
-    margin-top: -2rem;
+    height: 400px;
+    margin-top: .4rem;
+    padding-top: 10px;
+    font-size: 200%;
 }
 .midtext1
 {
@@ -153,40 +189,61 @@ width: 430px;
 {
     font-family: 'Times New Roman';
     text-align: center;
-    font-weight: 700;
-    margin-top: -1rem;
 }
+.midContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+.midItem
+{
+    font-family: 'Times New Roman, Times, serif';
+    padding-top: 30px;
+    text-align: center;
+}
+.midItem2
+{
+    padding-top: 20px;
+    font-size: 70%;
+}
+.footerContainer{
+    max-width: 500px;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
+ .footerImg
+ {
+    max-height: 459.8px;
+ }
 
-.grouphoto
-{
-    width: 430px;
-}
-.endtxt
-{
-    height: 220px;
-    font-family: 'Times New Roman';
+ .finalContainer
+ {
+    text-align: center;
     background-color: #366641;
-    width: 430px;
-    margin-top: -1rem;
-    margin-bottom: -2rem;
-}
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 300px;
+    line-height: 40px;
+ }
 
+ .contact-us
+ {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+ }
+ .contact-info
+ {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+ }
 
-.endtxt1
-{
-    font-family: 'Times New Roman';
-    color: #ffffff;
-    text-align: left;
-    font-weight: 700;
-    margin-top: 0rem;
-    margin-left: 2rem;
-}
-.endtxt2
-{
-    margin-top: -2rem;
-    margin-left: 2rem;
-    color: white;
-    line-height: 160%;
-    font-weight: 400;
-}
-
+ .social-media {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 1px;
+    margin-left: 100px;
+  }
+  
+  

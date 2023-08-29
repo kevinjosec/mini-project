@@ -33,25 +33,26 @@ export default function Connect()
             <div className='contact'>
         
                 <h3>First name</h3>
-                <input type="text" placeholder='First name'  style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                <input type="text" className='input-tag' placeholder='First name'  style={{ width: '300px', height: '40px' }} onChange={(event) => {
                       setName(event.target.value);
                     }}/>
                 <h3>Last Name</h3>
-                <input type="text"  placeholder='lastname' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                <input type="text"  className='input-tag' placeholder='lastname' style={{ width: '300px', height: '40px' }} onChange={(event) => {
                       setLast(event.target.value);
                     }}/> 
                 <h3>Contact no.</h3>
-                <input type="text" placeholder='contactno' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                <input type="text" className='input-tag' placeholder='contactno' style={{ width: '300px', height: '40px' }} onChange={(event) => {
                       setContact(event.target.value);
                     }}/> 
                 <h3>Table no.</h3>
-                <input type="text"  placeholder='tableNo' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                <input type="text"  className='input-tag' placeholder='tableNo' style={{ width: '300px', height: '40px' }} onChange={(event) => {
                       setTable(event.target.value);
                     }}/>
                 <h3>Message</h3>
-                <input type="textarea" placeholder='message' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                <input type="textarea" className='input-tag' placeholder='message' style={{ width: '300px', height: '40px' }} onChange={(event) => {
                       setMsg(event.target.value);
                     }}/>
+                    <br></br>
                 <button type="submit" className='send1' onClick={() => {
                       messageUser();
                     }}>

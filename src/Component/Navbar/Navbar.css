@@ -1,43 +1,33 @@
-.Navbarmain
-{
-    height: 100px;
-    width: 430px;
-    display: block ;
+.Navbarmain {
+    height: 90px;
     background-color: #366641;
-    align-items: center;
-    text-align: center;
-    text-justify: auto;
     display: flex;
-    
+    justify-content: space-between; /* Distribute space evenly between children */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Align text to the center */
+    padding: 0 20px; /* Add some horizontal padding for spacing */
 }
-.Caeffine
-{
-    margin-left: 1rem;
+
+@media (max-width: 768px) {
+    .Navbarmain {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}
+
+.Caeffine {
+    padding-left: 30rem;
     font-family: 'Santana-Black';
-    position: absolute;
-    top: 0.9%;
-    left: 25%;
     color: white;
+    margin: auto; /* Pushes Caeffine to the right */
 }
 
-.hamenu
-{
-   margin-left:22.5rem;
-   flex-direction: right;
-    
+.hamenu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
-
-
-.hamenu:hover
-{
-    color: azure;
-}
-
-.menubutton
-{
-    
+.menubutton {
     background-color: transparent;
-    border: none;
+    border: none;  
 }
-

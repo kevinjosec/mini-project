@@ -1,32 +1,31 @@
-import React from 'react'
+import React from 'react';
 import './Navbar.css';
-import {GiHamburgerMenu} from 'react-icons/gi';
-import {useState} from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { useState } from 'react';
 import Overlay from '../Overlay/Overlay';
 
 const Navbar = () => {
-  const [isoverlayopen , setisoverlayopen] = useState(false);
+  const [isoverlayopen, setisoverlayopen] = useState(false);
 
-  const handleopenoverlay =() =>{
+  const handleopenoverlay = () => {
     setisoverlayopen(true);
-  }
-  const handlecloseoverlay =()=>{
+  };
+  const handlecloseoverlay = () => {
     setisoverlayopen(false);
-  }
+  };
 
   return (
-  
-    <div className="Navbarmain" > 
+    <div className="Navbarmain">
       <div className='box1'>
-      <h1 className="Caeffine">Caeffine corner</h1> 
+        <h1 className="Caeffine">Caeffine corner</h1>
       </div>
-      <div className="hamenu"> 
-      <button className='menubutton' onClick={handleopenoverlay}>
-        <GiHamburgerMenu size="2.5rem" color='white'/>
-        <Overlay isopen={isoverlayopen} isclose={handlecloseoverlay}/>
-      </button>
+      <div className="hamenu">
+        <button className='menubutton' onClick={handleopenoverlay}>
+          <GiHamburgerMenu size="2.5rem" color='white'/>
+        </button>
       </div>
-      </div>
+      <Overlay isopen={isoverlayopen} isclose={handlecloseoverlay}/>
+    </div>
   );
 };
 

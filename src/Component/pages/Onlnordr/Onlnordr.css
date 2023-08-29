@@ -1,6 +1,6 @@
 .main
 {
-    
+    text-align: center;
     font-family: 'Times New Roman';
 }
 .header
@@ -48,20 +48,12 @@
     line-height: .5rem;
 }
 
-.continue1
-{
-    margin-left: 1rem;
-    transition-duration: 1s;
-    border: black;
-    background-color:#366641;
-    color: black;
-    padding: 2px 40px;
-    border: 2px solid #000000;
-    margin-top: -1rem;
+.continue{
+    border-radius: 30px;
 }
-
 .cash
 {
+    border-radius: 30px;
     background-color: #366641;
     transition-duration: 1s;
     border: black;
@@ -73,6 +65,7 @@
 
 .upi
 {
+    border-radius: 30px;
     background-color: #366641;
         transition-duration: 1s;
         border: black;
@@ -107,3 +100,7 @@
     background-color: #5f8575;
 }
 
+.inputTag
+{
+    border-radius: 30px;
+}

@@ -22,6 +22,7 @@ span {
 
   .send1
   {
+    border-radius: 30px;
     font-size: 100%;
     font-weight: 600;
     height: 50px;
@@ -43,5 +44,11 @@ span {
 
   .main1
   {
+    text-align: center;
    margin-left: 1rem;
+  }
+
+  .input-tag
+  {
+    border-radius: 30px;
   }

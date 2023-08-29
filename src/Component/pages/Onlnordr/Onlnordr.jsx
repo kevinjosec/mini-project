@@ -87,19 +87,19 @@ export default function Onln() {
                 <h1>Contact Information</h1>
                 <div>
                     <h3>First name</h3>
-                    <input type="text" id='fname' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                    <input type="text" className='inputTag' id='fname' style={{width: '400px', height: '40px' }} onChange={(event) => {
                       setName(event.target.value);
                     }}/>
                     <h3>Last Name</h3>
-                    <input type="text" id='lname' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                    <input type="text" id='lname' className='inputTag'style={{ width: '400px', height: '40px' }} onChange={(event) => {
                       setLast(event.target.value);
                     }}/>
                     <h3>Contact no.</h3>
-                    <input type="text" id='nmbr' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                    <input type="text" id='nmbr'className='inputTag' style={{ width: '400px', height: '40px' }} onChange={(event) => {
                       setContact(event.target.value);
                     }}/>
                     <h3>Table no.</h3>
-                    <input type="text" id='tblnmbr' style={{ width: '300px', height: '40px' }} onChange={(event) => {
+                    <input type="text" id='tblnmbr' className='inputTag' style={{ width: '400px', height: '40px' }} onChange={(event) => {
                       setTable(event.target.value);
                     }}/>
                    <br></br>

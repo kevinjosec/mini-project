@@ -4,8 +4,7 @@ import './Dmenu.css'
 import { PRODUCTS } from '../PRODUCTS'
 import {useNavigate} from 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import {AiOutlinePlusCircle} from 'react-icons/ai';
-
+import {AiOutlinePlusCircle} from 'react-icons/ai'
 import "./Addbutton.css"
 import Buybutton from '../../Buybutton/Buybutton'
 
@@ -78,8 +77,10 @@ export default function Dmenu(props) {
       <div>
           <div className='mainbody'>
   <div>
-  <img src={img} className='imagebox'>
+    <div className='imageBox'>
+  <img src={img} className='imagebox' style={{borderRadius:'20px'}}>
   </img>
+  </div>
   <h4 className='label'>
     {productName} 
   </h4>

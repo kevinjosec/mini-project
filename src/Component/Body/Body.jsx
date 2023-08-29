@@ -1,17 +1,24 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './Body.css'
-import pics from './mainimage.jpg';
-import pics1 from './eatimage.jpg';
-import pics2 from './drinkimage.jpg';
+import drinkImage from './drinkImage.jpg';
 import pics3 from './groupphoto.jpg';
+import download from './download.jpg'
+import eatImage from './eatImage.jpg'
+import footer1 from './1.jpg'
+import footer2 from './2.jpg'
+import footer3 from'./3.jpg'
+import footer4 from './4.jpg'
+import {BsFacebook} from 'react-icons/bs'
+import {AiFillInstagram,AiFillTwitterCircle} from 'react-icons/ai'
 export default function Body() {
   return (
     <div className="MainBody">
         <figure className="figcap">  
-      <img  src={pics} className="coffe">
-        
+      <div className="coffe1">
+      <img  src={download} className="coffe">
       </img>
+      </div>
       <figcaption className="figcaption"><br></br>
         Caeffine Corner, Panamapally <br></br>Nagar,<br></br> Ernakulam
       </figcaption>
@@ -26,62 +33,131 @@ export default function Body() {
      <figcaption className="Drink">
         <Link to="/menu" className='drinK'> Drink </Link>
      </figcaption>
-      </figure>
-     <div>
-      <h1 className="Eat">
-        Eat
-      </h1>
-
-      <h5 className="BLA">
-       Breakfast, Lunch and Artisanal Pastries    
-      </h5>
-
-      <p className="BLAA">
+      </figure> 
+    <div className="grid-container">
+      <div className='gridItem'>
+        <h1 className="Eat">
+        Eat.
+        </h1>
+        <h6 className='BLA'>
+        Breakfast, Lunch and Artisanal Pastries
+        </h6>
+        <p className="BLAA">
       Our Egg White & Roasted Red Pepper<br></br> Egg Bites are tasty, protein rich and <br></br>170 calories.
       </p>
       <Link to="/menu" className='SeeMore'>See More</Link>
       </div>
-      <img src={pics1} className="omelette"></img>
-      
-      <div>
+      <div className='gridItem'>
+        <img className='omelette' src={eatImage}>
+        </img>
+      </div>
+      <div className='gridItem'>
+      <img className='drink' src={drinkImage}>
+        </img>
+        </div>
+        <div className='gridItem'>
         <h1 className="DrinK">
-            Drink
+        Drink.
         </h1>
-        <h5 className="FTC">
-            The Freshest Cup in Town
-        </h5>
-        <p className="FTCC">
+        <h6 className='FTC'>
+        The Freshest Cup in Town
+                </h6>
+                <p className="FTCC">
         
         Try the new Cinnamon Caramel Cream <br></br>Nitro Cold Brew or go for the Vanilla <br></br> Sweet Cream Nitro Cold Brew
         </p>
         <Link to="/menu" className='SeeMore1'>See More</Link>
-<img src={pics2} className="drink"></img>
-      </div>
-    
-    <div className="midbar">
-      <br></br>
-      <h1 className="midtext1">Drop By for a Bite</h1>
-      <br></br>
-      <h2 className="midtext">Address</h2>
-      <br></br>
-      <h3 className="midtext">Caeffine Corner, Panampally Nagar, Ernakulam</h3>
-      <br></br>
-      <h1 className="midtext1">Opening Hours</h1>
-      <br></br>
-      <h3 className="midtext">Mon - Fri: 9am - 6pm</h3>
-      <br></br>
+          </div>
     </div>
-    <img src={pics3} className="grouphoto"></img>
-    <div className="endtxt">
-      <br></br>
-      <h1 className="endtxt1">Talk to Us</h1>
-      <br></br>
-      <h3 className="endtxt2">123-456-789<br></br>
-      infor@mysite.com
-      <br></br>
-      Caffine Corner, Panampally Nagar<br></br>
-      Ernakulam</h3>
+    <br>
+    </br>
+    <br>
+    </br>
+    <br/>
+    <br/>
+    <br/>
+    <div className='midbar'>
+      <h1 className='midtext'>
+        Drop by for a bite
+      </h1>
+      <div className='midContainer'>
+        <div className='midItem'>
+          <h7 className='address'>
+            Address
+          </h7>
+          <br>
+          </br>
+          <div className='midItem2'>
+          <h7>
+            Panampally Nagar, Ernakulam
+          </h7>
+          </div>
+        </div>
+        <div className='midItem'>
+          <h7 className='openingHours'>
+            Opening Hours
+          </h7>
+          <br></br>
+          <div className='midItem2'>
+          <h7>
+            Sunday - Friday : 8 to 5
+          </h7>
+          </div>
+        </div>
       </div>
+    </div>
+    <div className='footer'>
+      <div className='footerContainer'>
+        <div className='footerContainers'>
+          <img className='footerImg' src={footer1}>
+
+          </img>
+        </div>
+        <div className='footerContainers'>
+        <img className='footerImg' src={footer2}>
+            
+            </img>
+        </div>
+        <div className='footerContainers'>
+        <img className='footerImg' src={footer3}>
+            
+            </img>
+        </div>
+        <div className='footerContainers'>
+        <img className='footerImg' src={footer4}>
+          
+            </img>
+          </div>
+      </div>
+
+      <div className='finalContainer'>
+        <div className='finalContainers'>
+          <p className='contact-us'>
+          Talk to Us
+          </p>
+          <h7 className='contact-info'>
+            7994495225
+            </h7>
+            <br></br>
+            <h7 className='contact-info'>
+              Panampally Nagar, Ernakulam
+              </h7>
+        </div>
+        <div className='finalContainers'>
+        <div className='finalContainers'>
+          <p className='contact-us'>
+            Find Us
+            </p>
+            <div className='social-media'>
+              <BsFacebook size='2rem' className='icons'></BsFacebook>
+              <AiFillInstagram size='2rem' className='icons'></AiFillInstagram>
+              <AiFillTwitterCircle size='2rem' className='icons'></AiFillTwitterCircle>
+              </div>
+        </div>
+          </div>
+
+      </div>
+    </div>
 
     </div>
 
